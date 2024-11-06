@@ -48,14 +48,14 @@ Een van onze (oud) leden wil graag volledig verwijderd worden uit onze systemen.
 1. Een lid moet zichzelf kunnen verwijderen 
 2. Een administrator van de bieb moet de mogelijkheid hebben een lid te verwijderen (Zorg er voor dat een endpoint komt met in de url `/admin`, login is niet nodig)
 
-
 ### Leeftijden
 Oeps, een boze moeder aan de telefoon. Haar dochter van 9 heeft per ongeluk een boek geluisterd waar veel geweld in stond. Dat moeten we uiteraard niet willen.
 We gaan vanaf nu beter bijhouden waar boeken over gaan, welke leeftijd ze voor geschikt zijn. We introduceren daarnaast ook een tweede abonnementsvorm voor kinderen die geen volwassen boeken kunnen zien.
 Pas de applicatie aan met de volgende stukken:
 1. Administreert de geboortedatum van leden
 2. Administreert bij leden of ze een volwassen of kinder abonnement hebben
-3. Boeken moeten uitgebreid worden met categoriën
-4. Zorg er voor dat we boeken per categorie kunnen vinden/zoeken en filteren
-5. Zorg er voor dat we op basis van een member/lid id boeken vinden die bij de leeftijd categorie passen
-6. Bij het ophalen van leden willen we niet dat de geboortedatum wordt getoond, maar alleen de leeftijd. (dit kan je bereiken via een DTO)
+3. Boeken moeten uitgebreid worden met categoriën (spanning, thriller en dergelijken)
+4. Boeken moeten voorzien worden van een leeftijdscategorie
+5. Zorg er voor dat we boeken per categorie kunnen vinden/zoeken en filteren
+6. Zorg er voor dat we op basis van een member/lid id boeken vinden die bij de leeftijd categorie passen
+7. Bij het ophalen van leden willen we niet dat de geboortedatum wordt getoond, maar alleen de leeftijd. (dit kan je bereiken via een DTO)
